@@ -131,7 +131,15 @@
 				<hr>
 				<p class="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
 			</div>
-			<button></button>
+			<div class="button">
+					<ul>
+						<li><button class="btn btn-primary btn-success btn-lg myBtn">ALL</button></li>
+						<li><button class="btn btn-primary btn-success btn-lg myBtn">LAWN CARE</button></li>
+						<li><button class="btn btn-primary btn-success btn-lg myBtn">GARDEN CARE</button></li>
+						<li><button class="btn btn-primary btn-success btn-lg myBtn">PLANTING</button></li>
+					</ul>
+				</div>
+			</div>
 			<div class="photosItem">
 				<div class="col-md-3">
 					<div class="col">
@@ -208,9 +216,9 @@
 					<hr>
 				</div>
 				<div class="col-md-12">
-					<div class="center">
+					<div class="center">					
 						<i class="fa fa-quote-left fa-2x"></i>
-					<P>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapibus leo nec ornare diam." <br>- John DOE, Parker County, TX</P>
+					<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapibus leo nec ornare diam." <br>- John DOE, Parker County, TX</p>
 					</div>
 				</div>
 				<button></button>
@@ -221,7 +229,7 @@
 		<div class="row rowPadding">
 			<div id="quote">
 				<div class="quoteItem rowPadding">
-					<h1 class="center">Get Your Free Quote Now. Call 1-887-654-3210</h1>
+					<h1 class="text-center">Get Your Free Quote Now. Call 1-887-654-3210</h1>
 				</div>
 			</div>
 		</div>
@@ -232,21 +240,57 @@
 				<h1 class="center">Contact Us</h1>
 				<hr>
 				<p class="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
-				<div class="contactItem">
-					<div class="col-md-6" style="background: yellow;"></div>
-					<div class="col-md-6" style="background: yellow;"></div>
+				<div class="contactItemFirst">
+					<form class="form-inline">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Name">
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Email">
+						</div>
+					</form>
+					<div class="contactItemSecond">
+						<form class="form-inline">
+							<div class="form-group">
+								<input type="text" class="form-control input" placeholder="Message">
+							</div>
+					</form>
+					</div>
 				</div>
-				<div class="contactItem">
-					<div class="col-md-12" style="background: yellow;></div>
+				<button class="btn btn-primary btn-success btn-lg myBtn center-block">SEND MESSAGE</button>
+				<div class="contactFooter fullPadding">
+					<div class="col-md-4">
+						<h1 class="text-center">ADDRESS</h1>
+						<hr>
+						<p class="text-center">321 Awesome Street <br> New York, NY 17022</p>
+					</div>
+					<div class="col-md-4">
+						<h1 class="text-center">WORKING HOURS</h1>
+						<hr>
+						<p class="text-center">Monday-Saturday: 07:00 - 18:00 <br> Sunday: CLOSED</p>
+					</div>
+					<div class="col-md-4">
+						<h1 class="text-center">CONTACT INFO</h1>
+						<hr>
+						<p class="text-center">Phone: +1 123 456 1234 <br> Email: info@company.com</p>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>		
-	<div class="container-fluid">
-		<div class="row rowPadding">
-			<div id="footer"></div>
-		</div>
-	</div>		
-
+	<footer class="footer">
+  <div class="container text-center">
+  	<div class="item">
+  		<a href="#"><i class="fa fa-facebook"></i></a>
+	    <a href="#"><i class="fa fa-twitter"></i></a>
+	    <a href="#"><i class="fa fa-google-plus"></i></a>
+	    <p>© 2017 Greenside. All rights reserved.</p>
+  	</div>
+  </div>
+</footer>	
+<script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+	crossorigin="anonymous">  	
+ </script>
+ <script src="js/script.js"></script>
 </body>
 </html>

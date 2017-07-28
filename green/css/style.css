@@ -21,12 +21,12 @@
   margin-top: 40px;
 }
 .hr{
-  width: 15%;
+  width: 70px;
   height: 2px;
   background-color: #1B6D3F;
 }
 hr{
-  width: 15%;
+  width: 70px;
   height: 2px;
   background-color: #1B6D3F; 
 }
@@ -35,11 +35,6 @@ hr{
   background: url(../images/intro-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.center {
-  margin: 0 auto;
-  text-align: center;
 }
 .fullPadding{
   padding: 100px 0px;
@@ -62,11 +57,10 @@ p{
 }
 #services {
   height: 600px;
-  padding: 50px 60px;
+  padding: 50px 110px;
 }
-
 .rowPadding {
-  padding: 50px 0px;
+  padding-top: 50px;
 }
 
 #gallery {
@@ -90,19 +84,45 @@ p{
   margin: 0 auto;
   width: 100%;
 }
-
+.button{
+  width: 50%;
+  margin: 0 auto;
+}
+.button ul{
+  list-style-type: none;
+}
+.button ul li{
+  display: inline-block;
+  margin: 20px;
+}
+.button ul li:first-child>button{
+  color: white;
+  background: #1B6D3F; 
+}
+.button ul li button{
+  border: none;
+  color: #676767;
+  background: white;
+}
+.button ul li button:hover{
+  background: #1B6D3F; 
+}
 .col {
   border-bottom: 20px solid white;
   height: 200px;
   overflow: hidden;
   box-sizing: border-box;
 }
-
-#testimonials {
-  margin: 0 auto;
-  height: 400px;
+#testimonials i{
+  color: #E6E6E6;
+  margin-top: 50px;
 }
-
+#testimonials p{
+  margin: 0 auto;
+  padding-bottom: 70px;
+  margin-top: 20px;
+  width: 70%;
+}
 .title {
   margin: 0 auto;
   text-align: center;
@@ -122,6 +142,71 @@ p{
    opacity: 0.5;
   background: black;
 }
+#quote h1{
+  color:#FFFFFF;
+  margin-top: 70px;
+}
 #contact{
-  height: 550px;
+  height: 620px;
+}
+#contact .contactItemFirst{
+  margin-bottom: 40px;
+  margin-top: 40px;
+  width: 55%;
+  margin: 0 auto;
+}
+.center {
+  margin: 0 auto;
+  text-align: center;
+  color: #393939;
+}
+#contact .contactItemFirst input{
+  width: 400px;
+  height: 40px;
+  margin-left: 20px;
+
+}
+#contact .contactItemSecond{
+  width: 55%;
+  padding: 0;
+}
+#contact .contactItemSecond input{
+  margin-top: 15px;
+  height: 90px;
+  border: 1px solid lightgray;
+  width: 825px;
+  float: left;
+}
+.contactFooter{
+  margin: 0 auto;
+  width: 60%;
+
+}
+.contactFooter h1{
+  font-size: 20px;
+  color: #333333;
+}
+.contactFooter p{
+  font-size: 18px;
+}
+footer{
+  height: 190px;
+  background: #333333;
+}
+.footer .item{
+  padding-top: 50px;
+}
+.item i {
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  padding: 10px 10px;
+  background: #777;
+  color: #222;
+  border-radius: 100%;
+}
+.item p{
+  color: #545454;
+  font-size: 17px;
+  padding-top: 36px;
 }
