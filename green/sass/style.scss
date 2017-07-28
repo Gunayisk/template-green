@@ -1,0 +1,55 @@
+
+*{
+	transition:all .5s ease;
+}
+.myNavbar{
+ margin-bottom:0px;
+ padding-right:50px;
+}
+.myNavbar>.nav{
+	padding:0px;
+}
+#home{
+	background:url(../images/intro-bg.jpg);
+	overflow: hidden;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:700px;
+	padding:100px 0px;
+}
+#home h1{
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+}
+#home p{
+	color: white;
+	font-size: 25px;
+}
+#about{
+	background:#F6F6F6;
+	padding:100px 40px;
+
+}
+#work{
+	background:white;
+	/*height:800px;*/
+	padding:100px 40px;
+
+}
+#gallery{
+	width: 100%;
+	padding:100px 40px;
+
+}
+#contact{
+	background:pink;
+	height:300px;
+	padding:100px 0px;
+
+}
+.hr{
+	width: 20%;
+	height: 2px;
+	background:#1B6D3F;
+}
